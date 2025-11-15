@@ -1,0 +1,2 @@
+# In this way we avoide making multiple useState and instead of this we make and object having keys similar to save save our input data and similar to first way every input has it's own onChange function to add/update it's value to object
+#

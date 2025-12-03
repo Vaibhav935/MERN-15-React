@@ -10,10 +10,10 @@ const ProductCard = ({ elem, location }) => {
   console.log(cartItems);
 
   const addCart = () => {
-    const exists = cartItems.some(item => item.id === elem.id)
-    if(exists){
-        toast.error("Product already exists")
-        return;
+    const exists = cartItems.some((item) => item.id === elem.id);
+    if (exists) {
+      toast.error("Product already exists");
+      return;
     }
     // const already = [...cartItems,elem]
     // console.log(already)
@@ -31,16 +31,16 @@ const ProductCard = ({ elem, location }) => {
     elem.quantity = 1;
     setCartItems((prev) => [...prev, elem]);
     toast.success("Product added to cart");
-    cartItems.map((e) => {
-      if (e.id !== elem.id) {
-      } else {
-        console.log("Item already exist");
-      }
-    });
+    // cartItems.map((e) => {
+    //   if (e.id !== elem.id) {
+    //   } else {
+    //     console.log("Item already exist");
+    //   }
+    // });
   };
 
   const removeCart = (id) => {
-    toast.error("Removed Item")
+    toast.error("Removed Item");
     setCartItems((prev) => prev.filter((item) => item.id !== id));
   };
 

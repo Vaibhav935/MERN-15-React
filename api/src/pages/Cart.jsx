@@ -8,6 +8,7 @@ const Cart = () => {
   const { cartItems } = useContext(MyStore);
   // console.log(cartItems.filter((val) => val.id));
   const location = useLocation()
+  console.log(location)
   return (
     <div className="px-10 py-5 pt-20">
       <h1 className="font-semibold text-2xl underline">#Cart Items </h1>

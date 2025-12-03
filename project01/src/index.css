@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+#bg{
+    background-image: url(https://wallpaperaccess.com/full/6233787.jpg);
+     object-fit: cover;
+   /* height: 100%; */
+    /* width: 100%; */
+}

@@ -21,3 +21,10 @@ React Fiber (2024)
 # 3 State lifting up
 
 # 4 React Hook Form
+
+
+Router provider apne andar childern nahi leta
+
+-- ROUTES = CREATEBROWSERROUTER
+-- ROUTE = ANDAR KE OBJECT
+

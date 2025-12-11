@@ -22,9 +22,17 @@ React Fiber (2024)
 
 # 4 React Hook Form
 
-
 Router provider apne andar childern nahi leta
 
 -- ROUTES = CREATEBROWSERROUTER
 -- ROUTE = ANDAR KE OBJECT
 
+# Optimization
+
+images - .webp, .avif
+videos - webm
+
+1. react.memo - memoization - tosave - tocache
+
+-> react.memo only memoizies component
+-> useCallback memoizies normal function

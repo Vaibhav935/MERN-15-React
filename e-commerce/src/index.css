@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 25px;
+  height: 5px;
+  background-color: #ccc;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+/* hide normally */
+.hide-scrollbar {
+  overflow: auto;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background: transparent;
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent; /* hidden */
+}
+
+/* show on hover */
+.hide-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+}
+
+/* hide corner triangles */
+.hide-scrollbar::-webkit-scrollbar-corner {
+  display: none;
+}
+
+/* Hidden by default */
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Show on hover */
+.hide-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* IMPORTANT: Hide again when mouse leaves scrollbar! */
+.hide-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.35); /* keep visible on thumb hover */
+}

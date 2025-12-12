@@ -36,3 +36,24 @@ videos - webm
 
 -> react.memo only memoizies component
 -> useCallback memoizies normal function
+
+useCallback fn return krta hai 
+
+useMemo, Debouncing, Thottering
+
+useMemo have storage to store any value useCallback does not, useCallback only have one storage to store reference/address.
+
+1. React.memo - Controlls components, memoize
+2. useCallback - Controlls fn, memoize fn
+3. useMemo - Controlls value, memoize value
+
+
+
+# Code Spitting
+
+Suspense, fallbace, lazy
+
+# Tgrottling 
+
+Debouncing
+
